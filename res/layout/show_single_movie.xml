@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/boobyblue"
+    android:orientation="vertical" >
+
+ 	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/booby_banner" />
+    
+    <TextView
+        android:id="@+id/showSingleMovieTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="FILM NAME"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+        android:id="@+id/showSingleMovieYear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="YEAR: 1994" />
+    
+    <TextView
+        android:id="@+id/showSingleMovieNudity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="NUDITY: YES" />
+    
+    <TextView
+        android:id="@+id/showSingleMovieRating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="RATING: 3.5" />
+    
+    <TextView
+        android:id="@+id/showSingleMovieGenre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Genre: Horror" />
+    
+    <TextView
+        android:id="@+id/showSingleMovieBlank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text=" " />
+    
+    <TextView
+        android:id="@+id/showSingleMovieDescriptionTag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="DESCRIPTION" />  
+
+    <TextView
+        android:id="@+id/showSingleMovieDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="No descrption for this film" />    
+    
+</LinearLayout>
